@@ -1,0 +1,22 @@
+version: "3"
+services:
+    app:
+        build:
+            context: ./
+            dockerfile: dockerfiles/app/Dockerfile
+        volumes:            
+            - "./:/var/www"
+        links:
+          - redis
+        ports:
+          - "80:81"
+          - "5173:5173"
+    redis:
+      image: redis:5.0
+    db:
+      image: mcr.microsoft.com/mssql/server:latest
+      ports:
+        - 1433:1433
+      environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_SA_PASSWORD=SQL#1234
