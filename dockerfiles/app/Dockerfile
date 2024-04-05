@@ -40,10 +40,23 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
+    curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+
+RUN apt-get update
+
+RUN ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev freetds-common freetds-bin php8.0-sybase
+
+RUN pecl install sqlsrv pdo_sqlsrv
+RUN phpenmod sqlsrv pdo_sqlsrv
+
+
 RUN pecl channel-update https://pecl.php.net/channel.xml \
     && pecl install swoole \
     && pecl clear-cache \
     && rm -rf /tmp/* /var/tmp/*
+
+
 
 ARG imagemagic_config=/etc/ImageMagick-6/policy.xml
 
