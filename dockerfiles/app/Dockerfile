@@ -45,7 +45,7 @@ RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
 
 RUN apt-get update
 
-RUN ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev freetds-common freetds-bin php8.0-sybase
+RUN ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev freetds-common freetds-bin php8.2-sybase
 
 RUN pecl install sqlsrv pdo_sqlsrv
 RUN phpenmod sqlsrv pdo_sqlsrv
