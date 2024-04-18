@@ -83,7 +83,7 @@
 		<div class="pre-loader">
 			<div class="pre-loader-box">
 				<div class="loader-logo">
-					<img src="/back/vendors/images/deskapp-logo.svg" alt="" />
+					<img src="/back/vendors/images/logo_prodin.png" alt="" />
 				</div>
 				<div class="loader-progress" id="progress_div">
 					<div class="bar" id="bar1"></div>
@@ -281,11 +281,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="github-link">
-					<a href="https://github.com/dropways/deskapp" target="_blank"
-						><img src="/back/vendors/images/github.svg" alt=""
-					/></a>
-				</div>
+				
 			</div>
 		</div>
 
@@ -462,9 +458,9 @@
 		<div class="left-side-bar">
 			<div class="brand-logo">
 				<a href="index.html">
-					<img src="/back/vendors/images/deskapp-logo.svg" alt="" class="dark-logo" />
+					<img src="/back/vendors/images/logo_prodin.png" alt="" class="dark-logo" />
 					<img
-						src="/back/vendors/images/deskapp-logo-white.svg"
+						src="/back/vendors/images/logo_prodin.png"
 						alt=""
 						class="light-logo"
 					/>
@@ -723,25 +719,25 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img1.jpg" alt="" />
+											<img src="/back/vendors/images/auto_cera_amarilla.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Gufram Bounce Black</a></h4>
-											<div class="price"><del>$55.5</del><ins>$49.5</ins></div>
-											<a href="#" class="btn btn-outline-primary">Read More</a>
+											<h4><a href="#">Auto - Cera para automóviles</a></h4>
+											<div class="price"><ins>Q39.49</ins></div>
+											<a href="#" class="btn btn-outline-primary">Más</a>
 										</div>
 									</div>
 								</li>
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img2.jpg" alt="" />
+											<img src="/back/vendors/images/auto_agua_destilada.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Gufram Bounce White</a></h4>
-											<div class="price"><del>$75.5</del><ins>$50</ins></div>
+											<h4><a href="#">Auto - Agua Destilada</a></h4>
+											<div class="price"><del>Q24.99</del><ins>Q19.99</ins></div>
 											<a href="#" class="btn btn-outline-primary"
-												>Add To Cart</a
+												>Más</a
 											>
 										</div>
 									</div>
@@ -749,15 +745,15 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img3.jpg" alt="" />
+											<img src="/back/vendors/images/prodin_soda_caustica.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Contrast Lace-Up Sneakers</a></h4>
+											<h4><a href="#">Prodin - Soda Cáustica </a></h4>
 											<div class="price">
-												<ins>$80</ins>
+												<ins>Q.34.99</ins>
 											</div>
 											<a href="#" class="btn btn-outline-primary"
-												>Add To Cart</a
+												>Más</a
 											>
 										</div>
 									</div>
@@ -765,14 +761,14 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img4.jpg" alt="" />
+											<img src="/back/vendors/images/visol_abrillantador_llantas.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Apple Watch Series 3</a></h4>
+											<h4><a href="#">Visol - Tine Shire</a></h4>
 											<div class="price">
-												<ins>$380</ins>
+												<ins>Q25.00</ins>
 											</div>
-											<a href="#" class="btn btn-outline-primary">Read More</a>
+											<a href="#" class="btn btn-outline-primary">Más</a>
 										</div>
 									</div>
 								</li>
@@ -780,13 +776,13 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img2.jpg" alt="" />
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Gufram Bounce White</a></h4>
-											<div class="price"><del>$75.5</del><ins>$50</ins></div>
+											<h4><a href="#">Gomy - Goma blanca - 8oz.</a></h4>
+											<div class="price"><del>Q25.99</del><ins>Q22.35</ins></div>
 											<a href="#" class="btn btn-outline-primary"
-												>Add To Cart</a
+												>Más</a
 											>
 										</div>
 									</div>
@@ -794,41 +790,41 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img4.jpg" alt="" />
+											<img src="/back/vendors/images/visol_cera_liquida.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Apple Watch Series 3</a></h4>
+											<h4><a href="#">Visol - Cera Líquida</a></h4>
 											<div class="price">
-												<ins>$380</ins>
+												<ins>Q33.99</ins>
 											</div>
-											<a href="#" class="btn btn-outline-primary">Read More</a>
+											<a href="#" class="btn btn-outline-primary">Más</a>
 										</div>
 									</div>
 								</li>
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img1.jpg" alt="" />
+											<img src="/back/vendors/images/gomy_crayones.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Gufram Bounce Black</a></h4>
-											<div class="price"><del>$55.5</del><ins>$49.5</ins></div>
-											<a href="#" class="btn btn-outline-primary">Read More</a>
+											<h4><a href="#">Gomy - Crayones</a></h4>
+											<div class="price"><del>Q23.99</del><ins>Q20.59</ins></div>
+											<a href="#" class="btn btn-outline-primary">Más</a>
 										</div>
 									</div>
 								</li>
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img3.jpg" alt="" />
+											<img src="/back/vendors/images/tempera1.jpg" alt="" />
 										</div>
 										<div class="product-caption">
-											<h4><a href="#">Contrast Lace-Up Sneakers</a></h4>
+											<h4><a href="#">Gomy - Tempera</a></h4>
 											<div class="price">
-												<ins>$80</ins>
+												<ins>Q35.99</ins>
 											</div>
 											<a href="#" class="btn btn-outline-primary"
-												>Add To Cart</a
+												>Más</a
 											>
 										</div>
 									</div>
@@ -956,42 +952,10 @@
 					>
 				</div>
 			</div>
-			<div class="text-center mb-1">
-				<div>
-					<a
-						href="https://github.com/dropways/deskapp"
-						target="_blank"
-						class="btn btn-light btn-block btn-sm"
-					>
-						<span class="text-danger weight-600">STAR US</span>
-						<span class="weight-600">ON GITHUB</span>
-						<i class="fa fa-github"></i>
-					</a>
-				</div>
-				<script
-					async
-					defer="defer"
-					src="https://buttons.github.io/buttons.js"
-				></script>
-			</div>
-			<a
-				href="https://github.com/dropways/deskapp"
-				target="_blank"
-				class="btn btn-success btn-sm mb-0 mb-md-3 w-100"
-			>
-				DOWNLOAD
-				<i class="fa fa-download"></i>
-			</a>
-			<p class="font-14 text-center mb-1 d-none d-md-block">
-				Available in the following technologies:
-			</p>
-			<div class="d-none d-md-flex justify-content-center h1 mb-0 text-danger">
-				<i class="fa fa-html5"></i>
-			</div>
+			
+			
 		</div>
-		<button class="welcome-modal-btn">
-			<i class="fa fa-download"></i> Download
-		</button>
+		
 		<!-- welcome modal end -->
 		<!-- js -->
 		<script src="/back/vendors/scripts/core.js"></script>

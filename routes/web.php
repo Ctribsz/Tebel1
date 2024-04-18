@@ -10,3 +10,4 @@ Route::get('/', function () {
 
 Route::get('inicio', [InicioController::class, 'index']);
 
+
