@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Misión y Visión</title>
     <style>
         body {
             margin: 0;
@@ -57,13 +57,14 @@
             <h1 id="title1">PRODIN</h1>
         </header>
         <main>
-            <h1>Inicio</h1>
+            <h1>Misión</h1>
             <p>
-                Esta es la página de inicio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, rem amet aliquid iure repudiandae obcaecati non. Libero, voluptates neque error, corporis fugit saepe, soluta ducimus est ad tempore magni a!
             </p>
 
+            <h1>Visión</h1>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At praesentium debitis, laudantium consequuntur obcaecati a consectetur reiciendis non perferendis quo. Ipsa officia minus nobis eveniet vel, repudiandae natus deleniti consequuntur.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam, delectus sequi ullam, dolor facere error consectetur, minima labore repellendus a voluptas! Magnam distinctio at doloremque, aspernatur culpa iusto officiis.
             </p>
         </main>
         <footer id="footer">

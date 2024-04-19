@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Login</title>
     <style>
         body {
             margin: 0;
@@ -37,6 +37,19 @@
             margin-top: 7vmin;
         }
 
+        label {
+            width: 100px;
+            margin: 5px;
+        }
+
+        #submit {
+            margin: 15px;
+        }
+
+        .c1 {
+            margin: 5px;
+        }
+
         #footer-text {
             color: gray;
             position: relative;
@@ -45,8 +58,8 @@
             transform: translate(-50%, -50%)
         }
 
-        #title1 {
-            color: white;
+        #submit {
+            background-color: #3271a8
         }
     </style>
 </head>
@@ -54,17 +67,19 @@
     <div id="root">
         <header id="header">
             <img src="/resources/media/logo_prodin.jpeg" alt="Logo Prodin">
-            <h1 id="title1">PRODIN</h1>
         </header>
         <main>
-            <h1>Inicio</h1>
-            <p>
-                Esta es la página de inicio.
-            </p>
+            <h1 id="title">Login</h1>
+            <div class="c1">
+                <label for="username">Username:</label>
+                <input type="text" id="username-box">
+            </div>
+            <div class="c1">
+                <label for="password">Password:</label>
+                <input type="text" id="password-box">
+            </div>
 
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At praesentium debitis, laudantium consequuntur obcaecati a consectetur reiciendis non perferendis quo. Ipsa officia minus nobis eveniet vel, repudiandae natus deleniti consequuntur.
-            </p>
+            <button id="submit">Submit</button>
         </main>
         <footer id="footer">
             <p id="footer-text">Lorem ipsum dolor sit amet consectetur.</p>
