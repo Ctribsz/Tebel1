@@ -1,31 +1,32 @@
-<!--PRODUCTS CATALOG PAGE(BEFORE FIXING ROUTING) -->
+<!-- PRODUCT DETAILS AND DESCRIPTION PAGE-->
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<!-- Basic Page Info -->
 		<meta charset="utf-8" />
-		<title>Tebel 1 - Product Catalog</title>
+		<title>Tebel1 - Product Details</title>
 
 		<!-- Site favicon -->
 		<link
 			rel="apple-touch-icon"
 			sizes="180x180"
-			href="/back/vendors/images/apple-touch-icon.png"
+			href="/back/vendors/images/prodin_favicon.ico"
 		/>
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
-			href="/back/vendors/images/favicon-32x32.png"
+			href="/back/vendors/images/prodin_favicon.ico"
 		/>
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="16x16"
-			href="/back/vendors/images/favicon-16x16.png"
+			href="/back/vendors/images/prodin_favicon.ico"
 		/>
 
-		<!-- Mobile Specific Metas -->
+	
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -42,6 +43,14 @@
 			rel="stylesheet"
 			type="text/css"
 			href="/back/vendors/styles/icon-font.min.css"
+		/>
+		<!-- Slick Slider css -->
+		<link rel="stylesheet" type="text/css" href="src/plugins/slick/slick.css" />
+		<!-- bootstrap-touchspin css -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css"
 		/>
 		<link rel="stylesheet" type="text/css" href="/back/vendors/styles/style.css" />
 
@@ -698,7 +707,7 @@
 						<div class="row">
 							<div class="col-md-12 col-sm-12">
 								<div class="title">
-									<h4>Product</h4>
+									<h4>Product Detail</h4>
 								</div>
 								<nav aria-label="breadcrumb" role="navigation">
 									<ol class="breadcrumb">
@@ -706,7 +715,7 @@
 											<a href="index.html">Home</a>
 										</li>
 										<li class="breadcrumb-item active" aria-current="page">
-											Product
+											Product Detail
 										</li>
 									</ol>
 								</nav>
@@ -714,126 +723,82 @@
 						</div>
 					</div>
 					<div class="product-wrap">
+						<div class="product-detail-wrap mb-30">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<div class="product-slider slider-arrow">
+										<div class="product-slide">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+										<div class="product-slide">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+										<div class="product-slide">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+										<div class="product-slide">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+									</div>
+									<div class="product-slider-nav">
+										<div class="product-slide-nav">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+										<div class="product-slide-nav">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+										<div class="product-slide-nav">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+										<div class="product-slide-nav">
+											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<div class="product-detail-desc pd-20 card-box height-100-p">
+										<h4 class="mb-20 pt-20">Gomy - Goma blanca - 8oz</h4>
+										<p>
+										Es un adhesivo multiusos, especialmente diseñado para su uso en la escuela, la oficina y el hogar. Es de
+										fácil aplicación, buen rendimiento, lavable, no mancha la ropa, no es tóxica y queda transparente al
+										secar. Pega papel, cartulina, tela, foamy, madera y cualquier material poroso.
+										</p>
+										
+										<div class="price"><del>Q.23.99</del><ins>Q21.99</ins></div>
+										<div class="mx-w-150">
+											<div class="form-group">
+												<label class="text-blue">cantidad</label>
+												<input
+													id="demo3_22"
+													type="text"
+													value="1"
+													name="demo3_22"
+												/>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 col-6">
+												<a href="#" class="btn btn-primary btn-block"
+													>Añadir al carrito</a
+												>
+											</div>
+											<div class="col-md-6 col-6">
+												<a href="#" class="btn btn-outline-primary btn-block"
+													>Comprar ahora</a
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h4 class="mb-20">Productos recientes</h4>
 						<div class="product-list">
 							<ul class="row">
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/auto_cera_amarilla.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Auto - Cera para automóviles</a></h4>
-											<div class="price"><ins>Q39.49</ins></div>
-											<a href="#" class="btn btn-outline-primary">Más</a>
-										</div>
-									</div>
-								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/auto_agua_destilada.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Auto - Agua Destilada</a></h4>
-											<div class="price"><del>Q24.99</del><ins>Q19.99</ins></div>
-											<a href="#" class="btn btn-outline-primary"
-												>Más</a
-											>
-										</div>
-									</div>
-								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/prodin_soda_caustica.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Prodin - Soda Cáustica </a></h4>
-											<div class="price">
-												<ins>Q.34.99</ins>
-											</div>
-											<a href="#" class="btn btn-outline-primary"
-												>Más</a
-											>
-										</div>
-									</div>
-								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/visol_abrillantador_llantas.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Visol - Tine Shire</a></h4>
-											<div class="price">
-												<ins>Q25.00</ins>
-											</div>
-											<a href="#" class="btn btn-outline-primary">Más</a>
-										</div>
-									</div>
-								</li>
-
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/gomy_8oz.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Gomy - Goma blanca - 8oz.</a></h4>
-											<div class="price"><del>Q25.99</del><ins>Q22.35</ins></div>
-											<a href="#" class="btn btn-outline-primary"
-												>Más</a
-											>
-										</div>
-									</div>
-								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
 											<img src="/back/vendors/images/visol_cera_liquida.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Visol - Cera Líquida</a></h4>
-											<div class="price">
-												<ins>Q33.99</ins>
-											</div>
-											<a href="#" class="btn btn-outline-primary">Más</a>
-										</div>
-									</div>
-								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/gomy_crayones.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Gomy - Crayones</a></h4>
-											<div class="price"><del>Q23.99</del><ins>Q20.59</ins></div>
-											<a href="#" class="btn btn-outline-primary">Más</a>
-										</div>
-									</div>
-								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/tempera1.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Gomy - Tempera</a></h4>
-											<div class="price">
-												<ins>Q35.99</ins>
-											</div>
-											<a href="#" class="btn btn-outline-primary"
-												>Más</a
-											>
-										</div>
-									</div>
-								</li>
-
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/product-img1.jpg" alt="" />
 										</div>
 										<div class="product-caption">
 											<h4><a href="#">Gufram Bounce Black</a></h4>
@@ -845,7 +810,7 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img2.jpg" alt="" />
+											<img src="/back/vendors/images/auto_cera_amarilla.jpg" alt="" />
 										</div>
 										<div class="product-caption">
 											<h4><a href="#">Gufram Bounce White</a></h4>
@@ -859,7 +824,7 @@
 								<li class="col-lg-4 col-md-6 col-sm-12">
 									<div class="product-box">
 										<div class="producct-img">
-											<img src="/back/vendors/images/product-img3.jpg" alt="" />
+											<img src="/back/vendors/images/universal-brake-fluid-blue-cap.jpg" alt="" />
 										</div>
 										<div class="product-caption">
 											<h4><a href="#">Contrast Lace-Up Sneakers</a></h4>
@@ -872,96 +837,53 @@
 										</div>
 									</div>
 								</li>
-								<li class="col-lg-4 col-md-6 col-sm-12">
-									<div class="product-box">
-										<div class="producct-img">
-											<img src="/back/vendors/images/product-img4.jpg" alt="" />
-										</div>
-										<div class="product-caption">
-											<h4><a href="#">Apple Watch Series 3</a></h4>
-											<div class="price">
-												<ins>$380</ins>
-											</div>
-											<a href="#" class="btn btn-outline-primary">Read More</a>
-										</div>
-									</div>
-								</li>
 							</ul>
-						</div>
-						<div class="blog-pagination mb-30">
-							<div class="btn-toolbar justify-content-center mb-15">
-								<div class="btn-group">
-									<a href="#" class="btn btn-outline-primary prev"
-										><i class="fa fa-angle-double-left"></i
-									></a>
-									<a href="#" class="btn btn-outline-primary">1</a>
-									<a href="#" class="btn btn-outline-primary">2</a>
-									<span class="btn btn-primary current">3</span>
-									<a href="#" class="btn btn-outline-primary">4</a>
-									<a href="#" class="btn btn-outline-primary">5</a>
-									<a href="#" class="btn btn-outline-primary next"
-										><i class="fa fa-angle-double-right"></i
-									></a>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
 				<div class="footer-wrap pd-20 mb-20 card-box">
-					DeskApp - Bootstrap 4 Admin Template By
-					<a href="https://github.com/dropways" target="_blank"
-						>Ankit Hingarajiya</a
-					>
+					Prodin 
+					
 				</div>
 			</div>
-		</div>
-		<!-- welcome modal start -->
-		<div class="welcome-modal">
-			<button class="welcome-modal-close">
-				<i class="bi bi-x-lg"></i>
-			</button>
-			<iframe
-				class="w-100 border-0"
-				src="https://embed.lottiefiles.com/animation/31548"
-			></iframe>
-			<div class="text-center">
-				<h3 class="h5 weight-500 text-center mb-2">
-					Open source
-					<span role="img" aria-label="gratitude">❤️</span>
-				</h3>
-				<div class="pb-2">
-					<a
-						class="github-button"
-						href="https://github.com/dropways/deskapp"
-						data-color-scheme="no-preference: dark; light: light; dark: light;"
-						data-icon="octicon-star"
-						data-size="large"
-						data-show-count="true"
-						aria-label="Star dropways/deskapp dashboard on GitHub"
-						>Star</a
-					>
-					<a
-						class="github-button"
-						href="https://github.com/dropways/deskapp/fork"
-						data-color-scheme="no-preference: dark; light: light; dark: light;"
-						data-icon="octicon-repo-forked"
-						data-size="large"
-						data-show-count="true"
-						aria-label="Fork dropways/deskapp dashboard on GitHub"
-						>Fork</a
-					>
-				</div>
-			</div>
-			
-			
 		</div>
 		
-		<!-- welcome modal end -->
 		<!-- js -->
 		<script src="/back/vendors/scripts/core.js"></script>
 		<script src="/back/vendors/scripts/script.min.js"></script>
 		<script src="/back/vendors/scripts/process.js"></script>
 		<script src="/back/vendors/scripts/layout-settings.js"></script>
+		<!-- Slick Slider js -->
+		<script src="src/plugins/slick/slick.min.js"></script>
+		<!-- bootstrap-touchspin js -->
+		<script src="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+		<script>
+			jQuery(document).ready(function () {
+				jQuery(".product-slider").slick({
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: true,
+					infinite: true,
+					speed: 1000,
+					fade: true,
+					asNavFor: ".product-slider-nav",
+				});
+				jQuery(".product-slider-nav").slick({
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					asNavFor: ".product-slider",
+					dots: false,
+					infinite: true,
+					arrows: false,
+					speed: 1000,
+					centerMode: true,
+					focusOnSelect: true,
+				});
+				$("input[name='demo3_22']").TouchSpin({
+					initval: 1,
+				});
+			});
+		</script>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe
