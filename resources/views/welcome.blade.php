@@ -26,6 +26,16 @@
 				$99.99
 			</x-individual_product>
 		</div>
+
+		<div class="container">
+			<x-individual_product
+				title="Producto 3" 
+				image="/path/to/image.jpg" 
+				link="/path/to/product" 
+				moreLink="/path/to/more"
+			>
+				$99.99
+			</x-individual_product>
+		</div>
 	</body>
 </html>
-
