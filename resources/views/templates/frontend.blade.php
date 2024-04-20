@@ -184,7 +184,14 @@
             </div>
             <div class="mobile-menu-overlay"></div>
 
-            
+        <div class="main-container">
+            @yield('content')
+        </div>
+        
+                
+        <!-- js -->
+        <script src="back/vendors/scripts/core.js"></script>
+        <script src="back/vendors/scripts/script.min.js"></script>
 
     </body>
 
