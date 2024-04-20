@@ -136,7 +136,56 @@
         </div>
         </div>
 
-        
+        <div class="left-side-bar">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <img src="back/vendors/images/bussines-logo.svg" alt="" class="dark-logo" />
+                    <img src="back/vendors/images/bussines-logo.svg" alt="" class="light-logo" />
+                </a>
+                <div class="close-sidebar" data-toggle="left-sidebar-close">
+                    <i class="ion-close-round"></i>
+                </div>
+            </div>
+            <div class="menu-block customscroll">
+                <div class="sidebar-menu">
+                    <ul id="accordion-menu">
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle">
+                                <span class="micon bi bi-house"></span>
+                                <span class="mtext">Home</span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Dashboard style 1</a></li>
+                                <!-- Otras opciones de dashboard eliminadas -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle">
+                                <span class="micon bi bi-file-earmark-text"></span>
+                                <span class="mtext">Productos</span>
+                            </a>
+                            <ul class="submenu">
+                                <!-- Opciones relacionadas con los productos -->
+                                <li><a href="#">Producto 1</a></li>
+                                <li><a href="#">Producto 2</a></li>
+                                <!-- Agrega más productos según sea necesario -->
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle">
+                                <span class="micon bi bi-archive"></span>
+                                <span class="mtext">Misión</span>
+                            </a>
+                            <!-- Opciones relacionadas con la misión -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="mobile-menu-overlay"></div>
+
+            
+
     </body>
 
 </html>
