@@ -10,4 +10,5 @@ Route::get('/', function () {
 
 Route::get('inicio', [InicioController::class, 'index']);
 Route::get('productos',[ProductosController::class, 'index']);
+Route::get('product', [ProductDetailsController::class, 'index']);
 
