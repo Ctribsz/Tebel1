@@ -91,7 +91,7 @@
 				</div>
 				<div class="login-menu">
 					<ul>
-						<li><a href="register.html">Register</a></li>
+						<li><a href="register.html">Registrarse</a></li>
 					</ul>
 				</div>
 			</div>
@@ -115,7 +115,7 @@
 									<input
 										type="text"
 										class="form-control form-control-lg"
-										placeholder="Username"
+										placeholder="Nombre de usuario"
 									/>
 									<div class="input-group-append custom">
 										<span class="input-group-text"
@@ -144,13 +144,13 @@
 												id="customCheck1"
 											/>
 											<label class="custom-control-label" for="customCheck1"
-												>Remember</label
+												>Recordar</label
 											>
 										</div>
 									</div>
 									<div class="col-6">
 										<div class="forgot-password">
-											<a href="forgot-password.html">Forgot Password</a>
+											<a href="forgot-password.html">Olvidé mi contraseña</a>
 										</div>
 									</div>
 								</div>
@@ -174,7 +174,7 @@
 											<a
 												class="btn btn-outline-primary btn-lg btn-block"
 												href="register.html"
-												>Register To Create Account</a
+												>Registrarse Para Crear una Cuenta</a
 											>
 										</div>
 									</div>
