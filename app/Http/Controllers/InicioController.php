@@ -10,4 +10,5 @@ class InicioController extends Controller
         // dd("HOLA MUNDO");
         return view('inicio');
     }
+
 }
