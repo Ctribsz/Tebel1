@@ -3881,6 +3881,21 @@ body.IE .register-page-wrap .container{
 /*==============================================================
 	Chat Module End
 ==============================================================*/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-rounded {
+    border-radius: 40px;  /* Ajusta esto según la redondez que desees */
+}
+
+@media (min-width: 768px) {
+    .col-md-8, .col-md-4 {
+        display: flex;
+        align-items: center;  
+    }
+}
 
 .wizard-content .wizard>.actions>ul>li>a{
 	background-color: #1b00ff;
