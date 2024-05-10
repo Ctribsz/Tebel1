@@ -139,8 +139,8 @@
         <div class="left-side-bar">
             <div class="brand-logo">
                 <a href="index.html">
-                    <img src="back/vendors/images/bussines-logo.svg" alt="" class="dark-logo" />
-                    <img src="back/vendors/images/bussines-logo.svg" alt="" class="light-logo" />
+                    <img src="back/vendors/images/bussineslogo.png" alt="" class="dark-logo" />
+                    <img src="back/vendors/images/bussineslogo.png" alt="" class="light-logo" />
                 </a>
                 <div class="close-sidebar" data-toggle="left-sidebar-close">
                     <i class="ion-close-round"></i>
