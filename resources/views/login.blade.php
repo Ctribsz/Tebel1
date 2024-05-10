@@ -102,7 +102,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-6 col-lg-7">
-						<img src="back/vendors/images/login-page-img.png" alt="" />
+						<img src="back/vendors/images/logo_prodin.png" alt="" />
 					</div>
 					<div class="col-md-6 col-lg-5">
 						<div class="login-box bg-white box-shadow border-radius-10">
