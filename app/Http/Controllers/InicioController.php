@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class InicioController extends Controller
 {
     public function index() {
-        return view('welcome');
+        // dd("HOLA MUNDO");
+        return view('inicio');
     }
 
 }
