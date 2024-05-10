@@ -34,7 +34,7 @@
 					<div class="col-md-4 mb-20">
 						<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
 								<div class="img pb-30">
-									<img src="back/vendors/images/clean-category.svg" alt="" />
+									<img src="back/vendors/images/clean-category.svg" alt="About us" class="img-fluid img-rounded" />
 								</div>
 							<div class="content">
 								<h3 class="h4">Limpieza</h3>
