@@ -4,23 +4,12 @@
     <div class="main-container">
         <div class="pd-ltr-20 xs-pd-20-10">
             <div class="min-height-200px">
-                <div class="page-header">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="title">
-                                <h4 class="h4 text-blue mb-30">Sobre nosotros</h4>
-                            </div>
-                            <nav aria-label="breadcrumb" role="navigation">
-                                <ol class="breadcrumb">
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+                <h4 class="h4 text-blue mb-30">Sobre nosotros</h4>
                 <div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
                     <div class="row">
                         <div class="col-md-8">
-                            <p>This is the about us section where you can introduce your team or company.</p>
+                            <p>En la actualidad, el Grupo PRODIN cuenta con el apoyo de sus empresas productoras, comercializadoras y de servicio, las cuales brindan el respaldo y soporte necesario para el desarrollo y crecimiento de este mercado. La experiencia de más de 40 años de producir y 31 años de comercializar sus productos, la investigación constante y tecnología de última generación, permiten al grupo 
+                                PRODIN poner a su disposición productos de calidad mundial, que responden eficientemente a los requerimientos de empresarios que enfrentan los retos de la globalización dentro de un mercado altamente exigente de servicio y de calidad.</p>
                         </div>
                         <div class="col-md-4">
                             <img src="back/vendors/images/about.jpg" alt="About Us" class="img-fluid img-rounded">
@@ -28,7 +17,7 @@
                     </div>
                 </div>
                 <!-- Integration of the cards -->
-                <h4 class="h4 text-blue mb-30">Card groups</h4>
+                <h4 class="h4 text-blue mb-30">Valores</h4>
                 <div class="card-group mb-30">
                     <div class="card card-box">
                         <img class="card-img-top" src="back/vendors/images/card1.jpg" alt="Card image cap"/>
@@ -73,7 +62,7 @@
                 <div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
                     <div class="row">
                         <div class="col-md-8">
-                            <p>This is the about us section where you can introduce your team or company.</p>
+                            <p>El Grupo PRODIN fue fundado en 1967, como una pujante empresa guatemalteca que se estableció como productora y comercializadora de sus productos, buscando desde sus inicios la excelencia y calidad para formar una empresa sólida y de confianza a través de un excelente servicio a nuestros clientes y consumidores</p>
                         </div>
                         <div class="col-md-4">
                             <img src="back/vendors/images/about.jpg" alt="About Us" class="img-fluid img-rounded">

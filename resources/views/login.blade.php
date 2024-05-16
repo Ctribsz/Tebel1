@@ -4,7 +4,7 @@
 	<head>
 		<!-- Basic Page Info -->
 		<meta charset="utf-8" />
-		<title>Prodin - Login</title>
+		<title>Login Tebel</title>
 
 		<!-- Site favicon -->
 		<link
@@ -86,12 +86,12 @@
 			>
 				<div class="brand-logo">
 					<a href="login.html">
-						<img src="back/vendors/images/logo_prodin.png" alt="" />
+						<img src="back/vendors/images/bussineslogo.png" alt="" />
 					</a>
 				</div>
 				<div class="login-menu">
 					<ul>
-						<li><a href="register.html">Registrarse</a></li>
+						<li><a href="{{ route('signup.index') }}">Registrarse</a></li>
 					</ul>
 				</div>
 			</div>
@@ -107,10 +107,37 @@
 					<div class="col-md-6 col-lg-5">
 						<div class="login-box bg-white box-shadow border-radius-10">
 							<div class="login-title">
-								<h2 class="text-center text-primary"  style="color:#001689;">Login</h2>
+								<h2 class="text-center text-primary">Login</h2>
 							</div>
 							<form>
-								
+								<div class="select-role">
+									<div class="btn-group btn-group-toggle" data-toggle="buttons">
+										<label class="btn active">
+											<input type="radio" name="options" id="admin" />
+											<div class="icon">
+												<img
+													src="back/vendors/images/briefcase.svg"
+													class="svg"
+													alt=""
+												/>
+											</div>
+											<span>Soy</span>
+											Admin
+										</label>
+										<label class="btn">
+											<input type="radio" name="options" id="user" />
+											<div class="icon">
+												<img
+													src="back/vendors/images/person.svg"
+													class="svg"
+													alt=""
+												/>
+											</div>
+											<span>Soy</span>
+											Empleado
+										</label>
+									</div>
+								</div>
 								<div class="input-group custom">
 									<input
 										type="text"
@@ -173,8 +200,8 @@
 										<div class="input-group mb-0">
 											<a
 												class="btn btn-outline-primary btn-lg btn-block"
-												href="register.html"
-												>Registrarse Para Crear una Cuenta</a
+												href="{{ route('signup.index') }}"
+												>Registrar para crear cuenta</a
 											>
 										</div>
 									</div>
@@ -185,9 +212,6 @@
 				</div>
 			</div>
 		</div>
-		
-			
-	
 		<!-- js -->
 		<script src="back/vendors/scripts/core.js"></script>
 		<script src="back/vendors/scripts/script.min.js"></script>
