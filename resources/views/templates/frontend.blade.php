@@ -155,7 +155,7 @@
                                 <span class="mtext">Home</span>
                             </a>
                             <ul class="submenu">
-                                <li><a href="index.html">Dashboard style 1</a></li>
+                                <li><a href="index.html">Inicio</a></li>
                                 <!-- Otras opciones de dashboard eliminadas -->
                             </ul>
                         </li>
@@ -166,8 +166,7 @@
                             </a>
                             <ul class="submenu">
                                 <!-- Opciones relacionadas con los productos -->
-                                <li><a href="#">Producto 1</a></li>
-                                <li><a href="#">Producto 2</a></li>
+                                <li><a href="#">Productos</a></li>
                                 <!-- Agrega más productos según sea necesario -->
                             </ul>
                         </li>
