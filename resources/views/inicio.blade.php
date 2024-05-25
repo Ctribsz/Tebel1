@@ -2,73 +2,66 @@
 
 @section('content')
 	<div class="pd-ltr-20 xs-pd-20-10">
-					<div class="min-height-200px">
-						<div class="page-header">
-							<div class="row">
-								<div class="col-md-6 col-sm-12">
-									<div class="title">
-										<div class="col-md-8">
-										<h4 class="font-20 weight-500 mb-10 text-capitalize">
-											Promociones
-											<div class="weight-600 font-30 text-blue">Mes de enero</div>
-										</h4>
-										<p class="font-18 max-width-600">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-											hic non repellendus debitis iure, doloremque assumenda. Autem
-											modi, corrupti, nobis ea iure fugiat, veniam non quaerat
-											mollitia animi error corporis.
-										</p>
-										</div>	
-									</div>	
-								</div>
-							</div>
+			<div class="card-box mb-30">
+				<div class="clearfix pd-20">
+					<div class="pull-left">
+						<h4 class="h4">Promociones</h4>
+					</div>
+				</div>
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="back/vendors/images/card1.jpg" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="back/vendors/images/card2.jpg" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="back/vendors/images/card3.jpg" alt="Third slide">
 						</div>
 					</div>
 				</div>
+			</div>		
 
 				<div class="title pb-20 pt-20">
 						<h2 class="h3 mb-0">Categoria de productos</h2>
 				</div>
 
-				<div class="row">
-					<div class="col-md-4 mb-20">
-						<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
-								<div class="img pb-30">
-									<img src="back/vendors/images/clean-category.svg" alt="About us" class="img-fluid img-rounded" />
+				<div class="container mt-5">
+					<div class="row clearfix">
+						<div class="col-md-4 col-sm-12 mb-30">
+							<div class="card text-white bg-primary card-box">
+								<div class="card-header">Limpieza</div>
+								<div class="card-body">
+									<h5 class="card-title text-white">Limpieza</h5>
+									<p class="card-text">
+										Productos y servicios relacionados con la limpieza.
+									</p>
 								</div>
-							<div class="content">
-								<h3 class="h4">Limpieza</h3>
-								<p class="max-width-200">
-									Los mejores productos para limpieza del hogar
-								</p>
 							</div>
-						</a>
 						</div>
-						<div class="col-md-4 mb-20">
-							<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
-								<div class="img pb-30">
-									<img src="back/vendors/images/car-category.svg" alt="" />
-								</div>
-								<div class="content">
-									<h3 class="h4">Automotriz</h3>
-									<p class="max-width-200">
-										Los mejores productos para limpieza de vehiculos
+						<div class="col-md-4 col-sm-12 mb-30">
+							<div class="card text-white bg-secondary card-box">
+								<div class="card-header">Automotriz</div>
+								<div class="card-body">
+									<h5 class="card-title text-white">Automotriz</h5>
+									<p class="card-text">
+										Productos y servicios relacionados con el sector automotriz.
 									</p>
 								</div>
-							</a>
+							</div>
 						</div>
-						<div class="col-md-4 mb-20">
-							<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
-								<div class="img pb-30">
-									<img src="back/vendors/images/school-category.svg" alt="" />
-								</div>
-								<div class="content">
-									<h3 class="h4">Categoria 3</h3>
-									<p class="max-width-200">
-										Informacion de la categoria 3
+						<div class="col-md-4 col-sm-12 mb-30">
+							<div class="card text-white bg-success card-box">
+								<div class="card-header">Escolar</div>
+								<div class="card-body">
+									<h5 class="card-title text-white">Escolar</h5>
+									<p class="card-text">
+										Productos y servicios relacionados con el sector escolar.
 									</p>
 								</div>
-							</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -76,45 +69,41 @@
 						<h2 class="h3 mb-0">Atencion al cliente</h2>
 				</div>
 
-				<div class="row">
-					<div class="col-md-4 mb-20">
-						<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
-								<div class="img pb-30">
-									<img src="back/vendors/images/phone-category.svg" alt="" />
+				<div class="container mt-5">
+					<div class="row clearfix">
+						<div class="col-md-4 col-sm-12 mb-30">
+							<div class="card text-white bg-primary card-box">
+								<div class="card-header">Redes sociales</div>
+								<div class="card-body">
+									<h5 class="card-title text-white">Redes sociales</h5>
+									<p class="card-text">
+										Facebook, Instagram y Twitter.
+									</p>
 								</div>
-							<div class="content">
-								<h3 class="h4">WhatsApp</h3>
-								<p class="max-width-200">
-									
-								</p>
 							</div>
-						</a>
 						</div>
-						<div class="col-md-4 mb-20">
-							<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
-								<div class="img pb-30">
-									<img src="back/vendors/images/phone-category.svg" alt="" />
-								</div>
-								<div class="content">
-									<h3 class="h4">Número telefonico</h3>
-									<p class="max-width-200">
-										
+						<div class="col-md-4 col-sm-12 mb-30">
+							<div class="card text-white bg-secondary card-box">
+								<div class="card-header">Correos</div>
+								<div class="card-body">
+									<h5 class="card-title text-white">Correos</h5>
+									<p class="card-text">
+										Example@gmail.com, Example2@gmail.com
 									</p>
 								</div>
-							</a>
+							</div>
 						</div>
-						<div class="col-md-4 mb-20">
-							<a href="#" class="card-box d-block mx-auto pd-20 text-secondary">
-								<div class="img pb-30">
-									<img src="back/vendors/images/phone-category.svg" alt="" />
-								</div>
-								<div class="content">
-									<h3 class="h4">Correo Electronico</h3>
-									<p class="max-width-200">
-										
+						<div class="col-md-4 col-sm-12 mb-30">
+							<div class="card text-white bg-success card-box">
+								<div class="card-header">Numero telefonico</div>
+								<div class="card-body">
+									<h5 class="card-title text-white">Numeros de la empresa</h5>
+									<p class="card-text">
+										######## - ######, ######## - ######.
 									</p>
 								</div>
-							</a>
+							</div>
+						</div>
 					</div>
 				</div>
 @endsection
