@@ -7,7 +7,7 @@ use App\Http\Controllers\Login2Controller;
 use App\Http\Controllers\MisionVisionController;
 use App\Http\Controllers\SignUpController;
 use App\Http\Controllers\AboutController;
-
+use App\Http\Controllers\ShipmentController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -21,6 +21,7 @@ Route::get('login',[Login2Controller::class, 'index']);
 Route::get('misionvision',[MisionVisionController::class, 'index']);
 Route::get('signup',[SignUpController::class, 'index']);
 Route::get('about',[AboutController::class, 'index']);
+Route::get('shipment',[ShipmentController::class, 'index']);
 
 //Nombres de rutas para poder redirigir 
 
@@ -30,3 +31,4 @@ Route::get('inicio', [InicioController::class, 'index'])->name('inicio.index');
 Route::get('productos',[ProductosController::class, 'index'])->name('productos.index');
 Route::get('misionvision',[MisionVisionController::class, 'index'])->name('misionvision.index');
 Route::get('about',[AboutController::class, 'index'])->name('about.index');
+Route::get('shipment',[ShipmentController::class, 'index'])->name('shipment.index');
