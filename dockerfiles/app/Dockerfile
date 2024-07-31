@@ -45,16 +45,22 @@ RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
 
 RUN apt-get update
 
-RUN ACCEPT_EULA=Y apt-get install -y msodbcsql18 unixodbc-dev freetds-common freetds-bin php8.2-sybase
+#RUN ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev freetds-common freetds-bin php8.2-sybase
 
-RUN pecl install sqlsrv pdo_sqlsrv
-RUN phpenmod sqlsrv pdo_sqlsrv
 
+#RUN pecl install sqlsrv pdo_sqlsrv
+#RUN phpenmod sqlsrv pdo_sqlsrv
+
+
+RUN apt-get install -y libbrotli-dev \
+    && apt-get -y autoremove \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pecl channel-update https://pecl.php.net/channel.xml \
     && pecl install swoole \
     && pecl clear-cache \
-    && rm -rf /tmp/* /var/tmp/*
+   && rm -rf /tmp/* /var/tmp/*
 
 
 
